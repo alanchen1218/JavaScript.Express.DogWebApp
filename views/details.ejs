@@ -1,0 +1,22 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <% for (var i in x) { %>
+            <h2>Details for <%= x[i].name %></h2>
+            <img src=<%= x[i].picture %> >
+            <hr>
+            <p>Nickname: <%= x[i].nickname %></p>
+            <hr>
+            <p>Favorite food: <%= x[i].food %></p>
+            <hr>
+            <p>Age: <%= x[i].age %></p>
+            <hr>
+            <p>Sleeping spots: <%= x[i].spots %></p>
+            <hr>
+        <% } %>
+
+    </body>
+</html>
